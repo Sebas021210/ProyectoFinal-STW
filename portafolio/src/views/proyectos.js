@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "../components/header";
+import Cards from "../components/cards";
+import "./styles/proyectos.css";
 
 function Proyectos() {
     return (
@@ -7,8 +9,8 @@ function Proyectos() {
             <div id="Header">
                 <Header />
             </div>
-            <div id="bodyProyectos">
-                <h1>Proyectos</h1>
+            <div className="bodyProyectos">
+                <Cards />
             </div>
         </div>
     );

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/header";
+import "./styles/sobreMi.css";
 
 function SobreMi() {
     return (
@@ -7,8 +8,9 @@ function SobreMi() {
             <div id="Header">
                 <Header />
             </div>
-            <div id="bodySobreMi">
+            <div className="bodySobreMi">
                 <h1>Sobre Mi</h1>
+                <h2>Sebastian Solorzano</h2>
             </div>
         </div>
     );
