@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    opacity: 1;
+}
