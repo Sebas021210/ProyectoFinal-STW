@@ -17,10 +17,6 @@ function Header() {
         navigate('/proyectos');
     };
 
-    const handleClickLabs = () => {
-        navigate('/labs');
-    };
-
     const handleClickContacto = () => {
         navigate('/contacto');
     };
@@ -37,9 +33,6 @@ function Header() {
                     </li>
                     <li>
                         <button className="nav-button" onClick={handleClickProyectos}>Proyectos</button>
-                    </li>
-                    <li>
-                        <button className="nav-button" onClick={handleClickLabs}>Laboratorios</button>
                     </li>
                     <li>
                         <button className="nav-button" onClick={handleClickContacto}>Contacto</button>

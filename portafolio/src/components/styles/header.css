@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1.5%;
 }
 
 .button-list {
@@ -17,12 +18,19 @@
     border: none;
     color: #000;
     font-size: 16px;
-    opacity: 0.8;
+    opacity: 0.7;
     transition: opacity 0.3s;
-    margin: 0 10px;
+    margin: 0 15px;
     cursor: pointer;
 }
 
 .nav-button:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 550px) {
+    .nav-button {
+        font-size: 12px;
+        margin: 0 5px;
+    }
 }
