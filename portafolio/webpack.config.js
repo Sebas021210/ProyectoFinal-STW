@@ -2,6 +2,7 @@ const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const { SourceMapDevToolPlugin } = require("webpack");
 
 module.exports = {
     mode: 'development',
@@ -14,6 +15,11 @@ module.exports = {
     },
     module: {
         rules: [
+            {
+                test: /\.m?js$/,
+                enforce: 'pre',
+                use: ['source-map-loader'],
+            },
             {
                 test: /\.css$/,
                 use: [
@@ -54,6 +60,9 @@ module.exports = {
         ]
     },
     plugins: [
+        new SourceMapDevToolPlugin({
+            filename: "[file].map"
+        }),
         new htmlWebpackPlugin({
             filename: 'index.html',
             template: './public/index.html',
