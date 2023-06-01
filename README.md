@@ -8,7 +8,7 @@ Este proyecto tiene el proposito de crear un portafolio demostrando las tecnolog
 
 ## Link documentación:
 
-https://docs.google.com/document/d/1EcvTSXDJjTRMK4Y5Fup-uqrfCwzS0xfSW0_k-yxZKM4/edit?usp=sharing
+https://docs.google.com/document/d/18TMiOSKVgWNXUoi-oIjBp0ovaoQKwerhHbQvw3n-Oa4/edit?usp=sharing
 
 ## Features
 
