@@ -85,7 +85,7 @@ function Cards() {
             text: "El laboratorio consiste en transformar una historia en la que se utilice JS, CSS, HTML, con el fin de crear un proyecto modular para poder aplicar Webpack.",
             image: Webpack,
             githubLink: "https://github.com/Sebas021210/Lab7SW/tree/main/Lab7STW",
-            link: "",
+            link: "https://webpack-babel.web.app/",
             icons: [mdiLanguageHtml5, mdiSass, mdiLanguageJavascript, mdiWebpack]
         },
         {
@@ -93,7 +93,7 @@ function Cards() {
             text: "El laboratorio consiste en tener una fase final donde se muestre la configuración de los JS generados por medio de babel.",
             image: Babel,
             githubLink: "https://github.com/Sebas021210/Lab7SW/tree/main/Lab8Babel/Lab7STW",
-            link: "",
+            link: "https://webpack-babel.web.app/",
             icons: [mdiLanguageHtml5, mdiSass, mdiLanguageJavascript, mdiWebpack, mdiBabel]
         },
         {
