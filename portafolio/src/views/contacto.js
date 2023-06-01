@@ -1,5 +1,10 @@
 import React from "react";
 import Header from "../components/header";
+//import Icon from '@mdi/react';
+//import { mdiAccount } from '@mdi/js';
+//import { mdiEmail } from '@mdi/js';
+//import { mdiPhone } from '@mdi/js';
+//import { mdiMapMarker } from '@mdi/js';
 import "./styles/contacto.css";
 
 function Contacto() {
@@ -9,10 +14,7 @@ function Contacto() {
                 <Header />
             </div>
             <div className="bodyContacto">
-                <h1>Contacto</h1>
-                <h2>celular</h2>
-                <h2>correo</h2>
-                <h2>linkedin</h2>
+
             </div>
         </div>
     );

@@ -34,3 +34,11 @@
     justify-content: space-between;
     margin-top: 15%;
 }
+
+.contactos a:hover{
+    transform: scale(1.2);
+}
+
+.contactos button:hover{
+    transform: scale(1.2);
+}

@@ -75,6 +75,11 @@
     margin-right: 10px;
 }
 
+.habilidades span:hover {
+    background-color: #495057;
+    cursor: pointer;
+}
+
 .habilidades p {
     margin: 0;
     margin-left: 5px;

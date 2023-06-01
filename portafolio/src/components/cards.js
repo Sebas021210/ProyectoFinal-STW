@@ -152,7 +152,7 @@ function Cards() {
                                 style={{
                                     width: '20rem',
                                     height: '19rem',
-                                    background: '#2C2E3A',
+                                    background: '#323545',
                                     color: '#fff',
                                     marginBottom: '1rem'
                                 }}
