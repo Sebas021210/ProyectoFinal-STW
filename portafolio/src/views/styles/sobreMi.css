@@ -1,9 +1,81 @@
 .bodySobreMi {
+    margin-top: 0%;
+    color: #fff;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 250px;
+    width: 100%;
+    border-bottom: #fff solid 1px;
+}
+
+.principal img {
+    flex: 0 0 auto;
+}
+
+.imagen {
+    margin-left: 5%;
+}
+
+.texto {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.texto h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.informacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.left-column {
+    width: 40%;
+    padding: 1rem;
+    border-right: #fff solid 1px;
+}
+
+.left-column p {
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.right-column {
+    width: 60%;
+    padding: 1rem;
+    border-left: #fff solid 1px;
+}
+
+.Skills {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.habilidades {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
     align-items: center;
-    text-align: center;
-    margin-top: 5%;
-    color: #fff;
+}
+
+.habilidades span {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.habilidades p {
+    margin: 0;
+    margin-left: 5px;
 }
