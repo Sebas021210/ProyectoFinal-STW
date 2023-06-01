@@ -35,10 +35,44 @@
     margin-top: 15%;
 }
 
-.contactos a:hover{
+.contactos a:hover {
     transform: scale(1.2);
 }
 
-.contactos button:hover{
+.contactos button:hover {
     transform: scale(1.2);
+}
+
+img {
+    width: 650px;
+    height: 650px;
+}
+
+@media screen and (max-width: 550px) {
+    .bodyHome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textoPrincipal {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+    }
+
+    .textoPrincipal h1 {
+        font-size: 20px;
+    }
+
+    .textoPrincipal h6 {
+        font-size: 12px;
+    }
+
+    img {
+        margin-top: 10%;
+        width: 350px;
+        height: 350px;
+    }
 }

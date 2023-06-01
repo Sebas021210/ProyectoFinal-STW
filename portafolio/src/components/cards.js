@@ -40,9 +40,15 @@ function MyVerticallyCenteredModal({ card, ...props }) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                <div className="modalBody" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                     <p style={{ textAlign: 'center' }}>{card.text}</p>
-                    <img src={card.image} alt="proyectImage" style={{ width: "700px", height: "auto" }} />
+                    {window.matchMedia("(max-width: 450px)").matches ? (
+                        <img src={card.image} alt="proyectImage" style={{ width: "300px", height: "auto" }} />
+                    ) : window.matchMedia("(max-width: 850px)").matches ? (
+                        <img src={card.image} alt="proyectImage" style={{ width: "480px", height: "auto" }} />
+                    ) : (
+                        <img src={card.image} alt="proyectImage" style={{ width: "700px", height: "auto" }} />
+                    )}
                 </div>
             </Modal.Body>
             <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between' }}>

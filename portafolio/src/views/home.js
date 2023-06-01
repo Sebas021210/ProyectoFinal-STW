@@ -35,7 +35,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="imageProgramming">
-                    <img src={programming} alt="programming" width="650px" height="600px"></img>
+                    <img src={programming} alt="programming"></img>
                 </div>
             </div>
         </div>

@@ -84,3 +84,59 @@
     margin: 0;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .principal {
+        margin-top: 4%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .texto {
+        text-align: center;
+    }
+
+    .imagen {
+        order: -1;
+    }
+
+    .texto h1 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .texto h5 {
+        font-size: 14px;
+    }
+
+    .informacion {
+        display: block;
+    }
+
+    .left-column {
+        width: 100%;
+        border-right: none;
+    }
+
+    .left-column h5{
+        font-size: 14px;
+    }
+
+    .left-column {
+        font-size: 12px;
+    }
+        
+    .right-column {
+        width: 100%;
+        border-left: none;
+    }
+
+    .habilidades {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
