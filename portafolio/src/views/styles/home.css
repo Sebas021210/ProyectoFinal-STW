@@ -1,9 +1,36 @@
 .bodyHome {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
     margin-top: 5%;
     color: #fff;
+}
+
+.textoPrincipal {
+    margin-left: 4%;
+    width: 35%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoPrincipal h1 {
+    font-size: 50px;
+    margin-top: 20%;
+    margin-bottom: 7%;
+}
+
+.textoPrincipal h6 {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.imageProgramming {
+    margin-right: 7%;
+}
+
+.contactos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
 }
