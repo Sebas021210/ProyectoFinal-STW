@@ -3,20 +3,20 @@ import Icon from '@mdi/react';
 import img3 from "../images/img3.JPG";
 import { mdiLanguagePython } from '@mdi/js';
 import { mdiLanguageJava } from '@mdi/js';
+import { mdiLanguageC } from '@mdi/js';
+import { mdiLanguageCpp } from '@mdi/js';
 import { mdiLanguageHtml5 } from '@mdi/js';
 import { mdiLanguageJavascript } from '@mdi/js';
+import { mdiLanguageTypescript } from '@mdi/js';
 import { mdiLanguageCss3 } from '@mdi/js';
-import { mdiLanguageKotlin } from '@mdi/js';
 import { mdiVuejs } from '@mdi/js';
+import { mdiAngular } from '@mdi/js';
 import { mdiReact } from '@mdi/js';
 import { mdiWebpack } from '@mdi/js';
-import { mdiBabel } from '@mdi/js';
-import { mdiVuetify } from '@mdi/js';
 import { mdiNodejs } from '@mdi/js';
 import { mdiAws } from '@mdi/js';
 import { mdiFirebase } from '@mdi/js';
 import { mdiNpm } from '@mdi/js';
-import { mdiSass } from '@mdi/js';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import Header from "../components/header";
@@ -49,17 +49,16 @@ function SobreMi() {
                         <div className="AboutMe">
                             <h5>Sobre mi</h5>
                             <p>
-                                Mi nombre es Sebastián José Solorzano Pérez, tengo 20 años. Actualmente estoy cursando el tercer año de
+                                Mi nombre es Sebastián José Solorzano Pérez, tengo 21 años. Actualmente estoy cursando el cuarto año de
                                 Ingeniería en ciencias de la computación y tecnologías de la información en la Universidad del Valle de Guatemala.
-                                Lo que más me gusta en la carrera es diseñar páginas web, por lo que la clase de Sistemas y Tecnologías Web
-                                me ayudo mucho a reforzar varios temas que ya tenía un poco de conocimiento y a aprender nuevos frameworks.
-                                Mis hobbies son ver futbol, jugar videojuegos y salir con mis amigos.
+                                Lo que más me gusta en la carrera es diseñar aplicaciones web, Mi objetivo es poder obtener experiencia, contribuir 
+                                con mis conocimientos y habilidades para alcanzar las metas establecidas por la institución que me brinde la oportunidad 
+                                de laborar. 
                             </p>
                             <p>
-                                Estudie Bachillerato en ciencias y letras con orientación en computación en el Colegio San José de los Infantes, 
-                                en el que pude aprender lo básico sobre HTML y CSS. Desde un principio me gusto la creación de páginas web, 
-                                por lo que seguí aprendiendo de estos temas viendo videos y haciendo tareas. Ya estudiando en la Universidad del Valle de Guatemala 
-                                puede seguir aprendiendo cada vez más sobre la creación de páginas web.
+                                Tengo habilidades en lenguajes de programación como Java, C++, Python, javaScript, Visual Basic, Kotlin. Conocimientos en 
+                                bases de datos no relacionales y SQL. Desarrollo web utilizando HTML, CSS y frameworks como React, Angular, Vue y ambientes 
+                                de ejecución como Node y webpack. Dominio de herramientas y tecnologías relacionadas con la computación como AWS y Firebase.
                             </p>
                         </div>
                     </div>
@@ -76,15 +75,23 @@ function SobreMi() {
                                     <p>Java</p>
                                 </span>
                                 <span>
-                                    <Icon path={mdiLanguageKotlin} size={1.5} color="white" />
-                                    <p>Kotlin</p>
+                                    <Icon path={mdiLanguageC} size={1.5} color="white" />
+                                    <p>C</p>
                                 </span>
+                                <span>
+                                    <Icon path={mdiLanguageCpp} size={1.5} color="white" />
+                                    <p>CPP</p>
+                                </span>
+
+
                                 <span>
                                     <Icon path={mdiNodejs} size={1.5} color="white" />
                                     <p>Nodejs</p>
                                 </span>
-
-
+                                <span>
+                                    <Icon path={mdiNpm} size={1.5} color="white" />
+                                    <p>NPM</p>
+                                </span>
                                 <span>
                                     <Icon path={mdiLanguageHtml5} size={1.5} color="white" />
                                     <p>HTML</p>
@@ -99,27 +106,26 @@ function SobreMi() {
                                     <p>Javascript</p>
                                 </span>
                                 <span>
+                                    <Icon path={mdiLanguageTypescript} size={1.5} color="white" />
+                                    <p>Typescript</p>
+                                </span>
+                                <span>
                                     <Icon path={mdiReact} size={1.5} color="white" />
                                     <p>React</p>
                                 </span>
+                                <span>
+                                    <Icon path={mdiAngular} size={1.5} color="white" />
+                                    <p>Angular</p>
+                                </span>
 
-                                <span>
-                                    <Icon path={mdiWebpack} size={1.5} color="white" />
-                                    <p>Webpack</p>
-                                </span>
-                                <span>
-                                    <Icon path={mdiBabel} size={1.5} color="white" />
-                                    <p>Babel</p>
-                                </span>
                                 <span>
                                     <Icon path={mdiVuejs} size={1.5} color="white" />
                                     <p>Vuejs</p>
                                 </span>
                                 <span>
-                                    <Icon path={mdiVuetify} size={1.5} color="white" />
-                                    <p>Vuetify</p>
+                                    <Icon path={mdiWebpack} size={1.5} color="white" />
+                                    <p>Webpack</p>
                                 </span>
-
                                 <span>
                                     <Icon path={mdiAws} size={1.5} color="white" />
                                     <p>AWS</p>
@@ -128,14 +134,7 @@ function SobreMi() {
                                     <Icon path={mdiFirebase} size={1.5} color="white" />
                                     <p>Firebase</p>
                                 </span>
-                                <span>
-                                    <Icon path={mdiNpm} size={1.5} color="white" />
-                                    <p>NPM</p>
-                                </span>
-                                <span>
-                                    <Icon path={mdiSass} size={1.5} color="white" />
-                                    <p>SASS</p>
-                                </span>
+                                
                             </div>
                         </div>
                     </div>

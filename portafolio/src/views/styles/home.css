@@ -1,7 +1,7 @@
 .bodyHome {
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 2%;
     color: #fff;
 }
 
@@ -31,7 +31,7 @@
 
 .contactos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 15%;
 }
 
@@ -46,6 +46,29 @@
 img {
     width: 650px;
     height: 650px;
+}
+
+@media screen and (max-width: 800px) {
+    .textoPrincipal {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+    }
+
+    .textoPrincipal h1 {
+        font-size: 30px;
+    }
+
+    .textoPrincipal h6 {
+        font-size: 16px;
+    }
+
+    img {
+        margin-top: 10%;
+        width: 380px;
+        height: 380px;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -74,5 +97,34 @@ img {
         margin-top: 10%;
         width: 350px;
         height: 350px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bodyHome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textoPrincipal {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+    }
+
+    .textoPrincipal h1 {
+        font-size: 20px;
+    }
+
+    .textoPrincipal h6 {
+        font-size: 12px;
+    }
+
+    img {
+        margin-top: 10%;
+        width: 270px;
+        height: 270px;
     }
 }

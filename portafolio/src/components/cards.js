@@ -56,7 +56,7 @@ function MyVerticallyCenteredModal({ card, ...props }) {
                     <a href={card.githubLink} target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px' }}><img src={github} style={{ width: "35px", height: "35px" }} alt="GitHub"></img></a>
                     <a href={card.link} target="_blank" rel="noopener noreferrer"><img src={link} style={{ width: "35px", height: "35px" }} alt="Link"></img></a>
                 </div>
-                <Button onClick={props.onHide}>Close</Button>
+                <Button onClick={props.onHide} style={{ background: '#202435', borderColor: "transparent" }}>Close</Button>
             </Modal.Footer>
         </Modal>
     );
@@ -181,7 +181,7 @@ function Cards() {
                                     </div>
                                 </Card.Body>
                                 <Card.Footer className="text-muted">
-                                    <Button variant="primary" style={{ background: '#202435' }}>Más información</Button>
+                                    <Button variant="primary" style={{ background: '#202435', borderColor: "transparent" }}>Más información</Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
